@@ -51,6 +51,19 @@ if (window.hljs) {
 h1 {
   font-size: 34px;
 }
+.column {
+    float: left;
+    width: 50%;
+    height:100%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 h1.title {
   font-size: 38px;
 }
@@ -117,6 +130,8 @@ body {
 p {
     text-align: justify;
     text-justify: inter-word;
+    font-family: "Times New Roman";
+    line-height: 1.6;
     
 }
 .section h2 {
@@ -340,13 +355,28 @@ div.tocify {
         <li>Focus and context for wells: <i>Highlighting an object of interest while also keeping the surrounding context in perspective</i></li>
     <br>
     </ul>
-    For more information the following video shows the techniques proving indight into reservoir models;
+    For more information, the following video shows the techniques proving indight into reservoir models;
     </p>
    <iframe width="850" height="477" src="https://www.youtube.com/embed/kBNmTsLuJuk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    <br><br>
    <p class="fa fa fa fa-tag"> Mota et al. [2] proposed a tool that uses analysis of reservoir data to help determine superior well placement and leveraged VR on consumer head mounted displays and industrial visualization centers. Their tool provide applications such as system control and manipulation (e.g. rotation, scaling), 3-dimensional well creation and trajectory, etc.</p>
-   
+   </br>
+   The following video will demonastrate the visualization using virtual technology;
    <iframe width="853" height="480" src="https://www.youtube.com/embed/vJaOeHY-42w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <p>PlanWell  interface could applied to many domains like oil and gas. PlanWell prototype can contribute to petroleum engineering tasks such as well planning and drilling operations by proiving spatial augmented reality interface that facilitates collaborative field operations. An overseer (in a command and control center) and explorer (an outdoor user in the field) could exchange information based on PlanWell. The overseer uses a scaled 3D printed model of the petroleum reservoir surface terrain to understand the spatial nuances of the terrain, and the explorer interacts with the surface environment directly via an AR interface. It is proved that PlanWell provides value to collaborative petroleum engineering workflows [3].</p>
+   </br>
+   The next video is a demo for how overseer and explorer collaborate each other.
+   <iframe width="853" height="480" src="https://www.youtube.com/embed/g3HINKcwQzw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <p> Virually training engineers in oil and gas field can prevent the risk of to be injured or killed in a real hazardous environment while tarning. Building an interactive virtual reality training environment in oil and gas field could be challanging and needing several details in order to really have a training procedure. Using virtual reality training environment proposes more user interactions in comparison with the nowadays traning based on photos and videos [4].</p>
+   <div class="row">
+       <div class="column">
+           <img src="1.png" alt="Snow" >
+               </div>
+       <div class="column">
+           <img src="2.png" alt="Forest">
+               </div>
+
+   </div>
 </section>
 <section id="project-team" class="level2">
 <h2>Future Directions</h2>
@@ -369,7 +399,10 @@ div.tocify {
     <li>[1] Sultanum, N., Somanath, S., Sharlin, E. and Sousa, M. "Point it, split it, peel it, view it". Proceedings of the ACM International Conference on Interactive Tabletops and Surfaces - ITS '11, (2011).</i></li>
     </br>
     <li>[2] Ramos Mota, R., Cartwright, S., Sharlin, E., Hamdi, H., Costa Sousa, M. and Chen, Z. Exploring Immersive Interfaces for Well Placement Optimization in Reservoir Models. Proceedings of the 2016 Symposium on Spatial User Interaction - SUI '16, (2016).</li>
-    <li>Nittala, A., Li, N., Cartwright, S., Takashima, K., Sharlin, E. and Sousa, M. PLANWELL. SIGGRAPH ASIA 2015 Mobile Graphics and Interactive Applications on - SA '15, (2015).</li>
+    </br>
+    <li>[3] Nittala, A., Li, N., Cartwright, S., Takashima, K., Sharlin, E. and Sousa, M. PLANWELL. SIGGRAPH ASIA 2015 Mobile Graphics and Interactive Applications on - SA '15, (2015).</li>
+    </br>
+    <li>[4] Santos, I., Dam, P., Arantes, P., Raposo, A. and Soares, L. Simulation Training in Oil Platforms. 2016 XVIII Symposium on Virtual and Augmented Reality (SVR), (2016).</li>
     </blockquote>
 </ul>
 </section>
